@@ -1,4 +1,4 @@
-import  numpy as np
+import  numpy_practice as np
 
 array = np.array([3, 6, 9])
 

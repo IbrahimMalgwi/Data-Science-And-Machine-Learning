@@ -1,4 +1,4 @@
-import numpy as np
+import numpy_practice as np
 
 array1 = np.array([(2, 4, 6), (1, 3, 5)])
 array2 = np.array([(5, 9, 3), (6, 7, 15)])
