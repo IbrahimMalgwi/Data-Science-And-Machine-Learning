@@ -4,8 +4,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sb
 
-database = sb.load_dataset('diamonds')
-print(database)
+data_base = sb.load_dataset('tips')
+print(data_base)
 
-sb.distplot(database['carat'])
+sb.jointplot(x='tips', y='total_bill', data=data_base)
 plt.show()

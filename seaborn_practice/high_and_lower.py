@@ -4,8 +4,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sb
 
-data_base = sb.load_dataset('tips')
-print(data_base)
+database = sb.load_dataset('flights')
+print(database)
 
-sb.jointplot(x='tips', y='total bill', data=data_base)
+sb.catplot(x='month', y='passengers', data=database, kind='box')
 plt.show()
